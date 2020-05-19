@@ -1,5 +1,98 @@
-.block{
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.page_container{
+    display: flex;
+    justify-content: center;
     width: 100vw;
-    height: 100vh;
-    background-color: #23244f;
+    height: fit-content;
+    background-color: #BCBBEA;
+    overflow: hidden;
+}
+.page{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 1200px;
+    background-color: rgba(103, 229, 96, 0.5);
+}
+.header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 77px;
+    width: 100%;
+    background-color: #5973b1;
+    top: 0;
+    border: solid 1px #070705;
+}
+.header::before{
+    position: absolute;
+    right: 100%;
+    content: "";
+    background-color: #5973b1;
+    width: 400%;
+    height: 100%;
+}
+.header::after{
+    position: absolute;
+    left: 100%;
+    content: "";
+    background-color: #5973b1;
+    width: 400%;
+    height: 100%;
+}
+.navigation{
+    display: flex;
+    position: absolute;
+    top: 77px;
+    left: 0px;
+    background-color: #DD9725;
+    height: 100px;
+    width: 100px;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    display: flex;
+    height: 82vh;
+    border: solid 1px #820ab1;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(158, 53, 161);
+
+}
+.footer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 77px;
+    width: 100%;
+    background-color: rgb(212, 105, 137);
+}
+.footer::before{
+    position: absolute;
+    right: 100%;
+    content: "";
+    background-color: rgb(212, 105, 137);
+    width: 400%;
+    height: 100%;
+}
+.footer::after{
+    position: absolute;
+    left: 100%;
+    content: "";
+    background-color: rgb(212, 105, 137);
+    width: 400%;
+    height: 100%;
 }
