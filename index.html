@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
@@ -14,16 +14,18 @@
     <span class="logo">Афродита</span>
     <nav class="navigation">
         <a href="#" class="nav__home">
-            <img class="nav__home--icon" src="img/main_icon.svg" alt="icon">
-            <span class="nav__home--text">Главная</span>
+            <span class="home-icon">
+                <img class="nav__home--icon icon" src="img/home-hero.png" alt="icon">
+            </span>
+            <span class="nav__text">Главная</span>
         </a>
         <a href="#" class="nav__review">
-            <img class="nav__review--icon" src="img/feed_icon.png" alt="icon">
-            <span class="nav__review--text">Отзывы</span>
+            <img class="nav__review--icon icon" src="img/review.png" alt="icon">
+            <span class="nav__text">Отзывы</span>
         </a>
         <a href="#" class="nav__services">
-            <img class="nav__services--icon" src="img/service_icon.png" alt="icon">
-            <span class="nav__services--text">Услуги</span>
+            <img class="nav__services--icon icon" src="img/service.png" alt="icon">
+            <span class="nav__text">Услуги</span>
         </a>
     </nav><!--navigation-->
     <div class="contact">
@@ -31,8 +33,56 @@
         <span class="contact__grafic">График работы</span>
     </div>
 </header><!--header-->
-<div class="logo--image"></div>
-<div class="content">content</div><!--content-->
+<div class="logo--image">
+    <span class="hero__logo-image">
+        <img src="img/home__hero-image.png" alt="photo">
+    </span>
+</div>
+<div class="content"><h3 class="content__name">особенности</h3>
+    <div class="content__cards">
+        <div class="card__unic">
+            <span class="card__icon--icon">
+                <img src="img/card__unic.png" alt="photo">
+            </span>
+            <span class="card__unic--name">уникальность</span>
+            <span class="card__unic--details">
+                <ul class="unic--details__name">Мы делаем все,<br>
+                    для вашего комфорта
+                    <li class="unic--details__text">Питание включено</li>
+                    <li class="unic--details__text">Багаж (5 кг)</li>
+                    <li class="unic--details__text">Душ/баня</li>
+                </ul>
+            </span>
+        </div>
+        <div class="card__unic">
+            <span class="card__icon--icon">
+                <img src="img/card__unic.png" alt="photo">
+            </span>
+            <span class="card__unic--name">личный тренер</span>
+            <span class="card__unic--details">
+                <ul class="unic--details__name">Наш зал оборудован<br>тренажёрами A-класса
+                    <li class="unic--details__text">Качество</li>
+                    <li class="unic--details__text">Продуктивость</li>
+                    <li class="unic--details__text">Результат</li>
+                </ul>
+            </span>
+        </div>
+        <div class="card__unic">
+            <span class="card__icon--icon">
+                <img src="img/card__unic.png" alt="photo">
+            </span>
+            <span class="card__unic--name">личный тренер</span>
+            <span class="card__unic--details">
+                <ul class="unic--details__name">Тренер сделает всё
+                    для вашего результата                    
+                    <li class="unic--details__text">Программа</li>
+                    <li class="unic--details__text">Питание</li>
+                    <li class="unic--details__text">План тренировок</li>
+                </ul>
+            </span>
+        </div>
+    </div>
+</div><!--content-->
 <span class="pagination">pagination</span><!--pagination-->
 <footer class="footer">footer</footer><!--footer-->
 </div><!--page-->
