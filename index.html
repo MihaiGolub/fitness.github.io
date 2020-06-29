@@ -18,7 +18,7 @@
             <span class="home-icon">
                 <img class="nav__home--icon icon" src="img/home-hero.png" alt="icon">
             </span>
-            <span class="nav__text">Главная</span>
+            <span class="nav__text active">Главная</span>
         </a>
         <a href="#" class="nav__review">
             <img class="nav__review--icon icon" src="img/review.png" alt="icon">
@@ -31,7 +31,13 @@
     </nav><!--navigation-->
     <div class="contact">
         <a href="#" class="contact__phone">8 (800) 00-392-10</a>
-        <span class="contact__grafic">График работы</span>
+        <div class="contact__grafic">
+            <span class="contact__grafic">График работы</span>
+            <div class="contact--grafic__hover">
+                <span class="grafic--hover__day">пн-вс: 09:00-20:00</span>
+                <span class="grafic--hover__lunch">обед: 14:00-14:30</span>
+            </div>
+        </div>
     </div>
 </header><!--header-->
 <div class="logo--image">
@@ -143,11 +149,31 @@
         </div>
 </section><!--news-->
 <div class="pagination">
-    <span class="pag__elem">1</span>
-    <span class="pag__elem">2</span>
-    <span class="pag__elem">3</span>
+    <span class="pagination__text">Страница 1 из 7</span>
+    <span class="pag__elem"><a href="#" class="pagination__elem pagination__elem--first">
+    <img src="img/pagPrew.png" alt="photo"></a></span>
+    <span class="pag__elem"><a href="#" class="pagination__elem active">1</a></span>
+    <span class="pag__elem"><a href="#" class="pagination__elem">2</a></span>
+    <span class="pag__elem"><a href="#" class="pagination__elem">3</a></span>
+    <span class="pag__elem"><a href="#" class="pagination__elem">4</a></span>
+    <span class="pag__elem"><a href="#" class="pagination__elem">5</a></span>
+    <span class="pag__elem"><a href="#" class="pagination__elem"><img src="img/pagNext.png" alt="photo"></a></span>
 </div><!--pagination-->
-<footer class="footer">footer</footer><!--footer-->
+<footer class="footer">
+    <div class="author">Сделано с любовью и старанием
+        на курсе «HTML + CSS» в <a href="#" class="lofschool__link">LoftSchool.</a>
+        Автор работы: <a href="#" class="author__name">Прохладов Вадим</a></div>
+    <div class="footer__logo logo">Афродита</div>
+    <div class="footer--socials">
+        <span class="footer--socials__text">Наши социальные сети</span>
+        <span class="footer--socials__icons">
+            <a href="#" class="footer--icon"><img src="img/vk.png" alt="photo"></a>
+            <a href="#" class="footer--icon"><img src="img/fb.png" alt="photo"></a>
+            <a href="#" class="footer--icon"><img src="img/twitter.png" alt="photo"></a>
+            <a href="#" class="footer--icon"><img src="img/mail.png" alt="photo"></a>
+        </span>
+    </div>
+</footer><!--footer-->
 </div><!--page-->
 </div><!--page_container-->
 </body>
