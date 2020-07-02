@@ -12,7 +12,7 @@
 <div class="page_container">
 <div class="page">
 <header class="header">
-    <span class="logo">Афродита</span>
+    <a href="index.html"><span class="logo">Афродита</span></a>
     <nav class="navigation">
         <a href="#" class="nav__home">
             <span class="home-icon">
@@ -103,21 +103,83 @@
     <span class="pag__elem"><a href="#" class="pagination__elem">5</a></span>
     <span class="pag__elem"><a href="#" class="pagination__elem"><img src="img/pagNext.png" alt="photo"></a></span>
 </div><!--pagination-->
-<footer class="footer">
-    <div class="author">Сделано с любовью и старанием
-        на курсе «HTML + CSS» в <a href="#" class="lofschool__link">LoftSchool.</a>
-        Автор работы: <a href="#" class="author__name">Прохладов Вадим</a></div>
-    <div class="footer__logo logo">Афродита</div>
-    <div class="footer--socials">
-        <span class="footer--socials__text">Наши социальные сети</span>
-        <span class="footer--socials__icons">
-            <a href="#" class="footer--icon"><img src="img/vk.png" alt="photo"></a>
-            <a href="#" class="footer--icon"><img src="img/fb.png" alt="photo"></a>
-            <a href="#" class="footer--icon"><img src="img/twitter.png" alt="photo"></a>
-            <a href="#" class="footer--icon"><img src="img/mail.png" alt="photo"></a>
-        </span>
+<div class="info--banner">
+    <span class="info--banner__img"></span>
+    <span class="banner--text">Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров, психологов. Также есть кабинет массажа, зал спа рядом с бассейном и возможность арендовать центр для проведения массовых мероприятий.<a href="#">Ждем ваших заявок!</a></span>
+</div>
+
+<div class="container container--form">
+    <form class="form">
+        <div class="title">Оставить отзыв</div>
+        <div class="form__row">
+            <div class="form__col">
+               <label class="input">
+                   <div class="form__text">Ваше имя</div>
+                   <input type="text" class="input__elem" placeholder="Андрей">
+               </label>
+            </div>
+            <div class="form__col">
+                <label class="input">
+                    <div class="form__text">Ссылка на профиль VK</div>
+                    <input type="text" class="input__elem" placeholder="vk.com/example">
+                </label>
+             </div>
+        </div>
+        <div class="form__row">
+            <div class="form__col">
+                <label class="textarea">
+                    <div class="form__text">Текст отзыва</div>
+                    <textarea class="textarea__elem" placeholder="Мне понравилось"></textarea>
+                </label>
+            </div>
+        </div>
+        <div class="form__row">
+            <div class="form__col">
+                <div class="form__text">Отображать фото в отзыве?</div>
+
+                <div class="radio-group">
+                    <label class="radio">
+                        <input type="radio" name="radio" class="radio__elem">
+                        <div class="radio__content">
+                            <div class="radio__btn">
+                            </div>
+                            <div class="radio__text">Да</div>
+                        </div>
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="radio" class="radio__elem">
+                        <div class="radio__content">
+                            <div class="radio__btn"></div>
+                            <div class="radio__text">Нет</div>
+                        </div>
+                    </label>
+
+                </div>
+
+            </div>
+           <div class="btn"><a href="#" class="button">ОТПРАВИТЬ</a></div>
+        </div>
+        </div>
+    </form>
+
+    <footer class="footer">
+        <div class="author">Сделано с любовью и старанием
+            на курсе «HTML + CSS» в <a href="#" class="lofschool__link">LoftSchool.</a>
+            Автор работы: <a href="#" class="author__name">Прохладов Вадим</a></div>
+        <div class="footer__logo logo">Афродита</div>
+        <div class="footer--socials">
+            <span class="footer--socials__text">Наши социальные сети</span>
+            <span class="footer--socials__icons">
+                <a href="#" class="footer--icon"><img src="img/vk.png" alt="photo"></a>
+                <a href="#" class="footer--icon"><img src="img/fb.png" alt="photo"></a>
+                <a href="#" class="footer--icon"><img src="img/twitter.png" alt="photo"></a>
+                <a href="#" class="footer--icon"><img src="img/mail.png" alt="photo"></a>
+            </span>
+        </div>
+    </footer><!--footer-->
     </div>
-</footer><!--footer-->
+    
+</div><!--container-form-->
 </div><!--page-->
 </div><!--page_container-->
 </body>
