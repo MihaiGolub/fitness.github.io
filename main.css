@@ -798,3 +798,104 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
+
+.sersvises--elements{
+    width: calc(100% - 40px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.servises--elem{
+    height: auto;
+    width: 26%;
+}
+.servises--elem__bgImg{
+    position: relative;
+    height: 155px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2%;
+    overflow: hidden;
+}
+.fitnes{
+    background-image: url(img/servisesElemFitnes.jpg);
+}
+.diet{
+    background-image: url(img/servisesElemDiet.jpg)
+}
+.yoga{
+    background-image: url(img/servisesElemYoga.jpg);
+}
+.hinges{
+    background-image: url(img/servisesElemHinges.jpg);
+}
+.crossfit{
+    background-image: url(img/servisesElemCrossfit.jpg);
+}
+.bazin{
+    background-image: url(img/servisesElemBazin.jpg);
+}
+.servises--name{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    letter-spacing: 0.72px;
+    z-index: 2;
+}
+.servises--elem__bgImg::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #000000;
+    opacity: 0.44;
+}
+.serviser--elem__details{
+    display: flex;
+    flex-direction: column;
+    margin:26px 0 70px;
+}
+.serviser--elem__details{
+    color: #262424;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+.servises--details__name{
+    font-size: 18px;
+    font-weight: 700;
+}
+.partners--container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: calc(100% - 40px);
+    justify-content: space-between;
+}
+.partners--elem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin: 35px 0 55px;
+}
+.partners--elem img{
+    cursor: pointer;
+}
+.nav__services .active{
+    color: #e1942a;
+}
